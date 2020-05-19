@@ -29,3 +29,4 @@ AS
 	SELECT @produto_ID=produto_ID FROM deleted;
 	-- apagar INCLUI desse produto ( e recalcular o valor e quantidades das vendas)
 GO
+
