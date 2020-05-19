@@ -1,9 +1,8 @@
 USE SPORT_SHOP;
-
+GO
 
 --duvidas:
---	Erros nos procedures
---	Venda é uma relação NxN como devemos criar seu procidure
+--	como organizar por ordem decrescente
 --	Stock - devemos declarar as quantidades com OUT?
 
 --	devemos ter um metodo de para quando a loja recebe carregamento de roupa poder alterar o numero da quantidadade loja e armazem
@@ -11,12 +10,10 @@ USE SPORT_SHOP;
 -- ==================
 -- === UTILIZADOR ===
 -- ==================
-GO
+
 CREATE PROC p_Create_Utilizador(@nome varchar(50), @num_ID int OUT)
 AS
-	INSERT INTO SPORT_SHOP.[Utilizador](nome) VALUES (@nome);
-	SET @num_ID = SCOPE_IDENTITY()
-
+	INSERT INTO SPORT_SHOP.[Utilizador](nome, num_ID) VALUES (@nome, @num_ID);
 GO
 
 -- ===============
@@ -58,7 +55,7 @@ GO
 GO
 CREATE PROC	p_Create_Produto(@produto_ID int OUT, @nome varchar(50), @preco real, @loja_code int, @tipo_ID int)
 AS
-	SET @produto_ID = SCOPE_IDENTITY()
+	SET @produto_ID =	SCOPE_IDENTITY()
 	INSERT INTO SPORT_SHOP.Produto(nome, preco, loja_code, tipo_ID) VALUES (@nome, @preco, @loja_code, @tipo_ID);
 	EXEC p_Create_Stock @loja_code=@loja_code, @produto_ID=@produto_ID;
 	RETURN 0;
@@ -71,5 +68,9 @@ GO
 CREATE PROC	p_Create_Venda(@ID_venda int OUT, @data_venda	date, @quantidade	int, @loja_code	int, @work_ID int, @num_ID int, @precoTotal real)
 AS
 	SET @ID_venda =	SCOPE_IDENTITY()
-	INSERT INTO SPORT_SHOP.Venda(ID_venda, date_venda) VALUES (@ID_venda);
+	INSERT INTO SPORT_SHOP.Venda
+			    ( data_venda,  loja_code,  work_ID,  num_ID) 
+		VALUES ( @data_venda, @loja_code, @work_ID, @num_ID);
 GO
+
+CREATE PROC	p_AddProduct_Venda(@ID_venda int, @produto_ID int, @quantidade int)
