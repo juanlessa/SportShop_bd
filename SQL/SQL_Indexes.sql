@@ -1,6 +1,6 @@
 USE SPORT_SHOP
 --doubts:
--- como ordenar a data por ordem contr·ria
+-- como ordenar a data por ordem contr√°ria
 
 -- ===============
 -- === INDEXES ===
