@@ -3,22 +3,22 @@ CREATE DATABASE [SPORT_SHOP]
 GO
 
 USE SPORT_SHOP
-
 GO
+
 CREATE SCHEMA SPORT_SHOP
 GO
 
 CREATE TYPE string FROM varchar(50);
+GO
 
 --#################
 --### ENTIDADES ###
 --#################
 
---COMO GERAR UM ATRIBUTO/CHAVE COM VALOR RANDOM MAS TAMANHO PRÉ-DEFINIDO?
 
 CREATE TABLE SPORT_SHOP.[Utilizador](
 	nome	string NOT NULL,
-	num_ID	int IDENTITY(10000000, 1),
+	num_ID	int NOT NULL,
 	CONSTRAINT UTILIZADOR_PK PRIMARY KEY (num_ID)
 );
 
@@ -31,7 +31,7 @@ CREATE TABLE SPORT_SHOP.[Cliente](
 CREATE TABLE SPORT_SHOP.[Funcionario](
 	work_ID	int IDENTITY(1, 1),
 	num_ID int,
-	[password]	string NOT NULL,		--falta limitador de minimo de carateres
+	[password]	string NOT NULL,		
 	CONSTRAINT FUNCIONARIO_PK PRIMARY KEY (work_ID)
 );
 
@@ -95,7 +95,7 @@ CREATE TABLE SPORT_SHOP.[Venda](
 );
 
 --######################
---### RELAÇÕES N - M ###
+--### RELAÃ‡Ã•ES N - M ###
 --######################
 
 CREATE TABLE SPORT_SHOP.[Inclui](
@@ -107,7 +107,7 @@ CREATE TABLE SPORT_SHOP.[Inclui](
 );
 
 --##################
---### ALTERAÇÕES ###
+--### ALTERAÃ‡Ã•ES ###
 --##################
 
 ALTER TABLE SPORT_SHOP.[Cliente]	ADD FOREIGN KEY (num_ID)	REFERENCES SPORT_SHOP.[Utilizador](num_ID);
@@ -127,6 +127,5 @@ ALTER TABLE SPORT_SHOP.[Stock]	ADD FOREIGN KEY (produto_ID)	REFERENCES SPORT_SHO
 ALTER TABLE SPORT_SHOP.[Venda]	ADD FOREIGN KEY (num_ID)	REFERENCES SPORT_SHOP.[Cliente](num_ID);
 ALTER TABLE SPORT_SHOP.[Venda]	ADD FOREIGN KEY (work_ID)	REFERENCES SPORT_SHOP.[Funcionario](work_ID);
 ALTER TABLE SPORT_SHOP.[Venda]	ADD FOREIGN KEY (loja_code)	REFERENCES SPORT_SHOP.[Loja](loja_code);
-
 ALTER TABLE SPORT_SHOP.[Inclui] ADD FOREIGN KEY (ID_venda) REFERENCES SPORT_SHOP.[Venda](ID_venda);
 ALTER TABLE SPORT_SHOP.[Inclui] ADD FOREIGN KEY (produto_ID) REFERENCES SPORT_SHOP.[Produto](produto_ID);
