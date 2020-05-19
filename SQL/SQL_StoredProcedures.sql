@@ -68,7 +68,7 @@ GO
 CREATE PROC	p_Create_Venda(@ID_venda int OUT, @data_venda	date, @quantidade	int, @loja_code	int, @work_ID int, @num_ID int, @precoTotal real)
 AS
 	SET @ID_venda =	SCOPE_IDENTITY()
-	INSERT INTO SPORT_SHOP.Venda
+	INSERT INTO SPORT_SHOP.[Venda]
 			    ( data_venda,  loja_code,  work_ID,  num_ID) 
 		VALUES ( @data_venda, @loja_code, @work_ID, @num_ID);
 GO
