@@ -1,0 +1,30 @@
+C:\Users\juanv\OneDrive\Anexos\Área de Trabalho\programação\Interface SportShop\bin\Debug\Interface SportShop.exe.config
+C:\Users\juanv\OneDrive\Anexos\Área de Trabalho\programação\Interface SportShop\bin\Debug\Interface SportShop.exe
+C:\Users\juanv\OneDrive\Anexos\Área de Trabalho\programação\Interface SportShop\bin\Debug\Interface SportShop.pdb
+C:\Users\juanv\OneDrive\Anexos\Área de Trabalho\programação\Interface SportShop\obj\Debug\Interface SportShop.csprojAssemblyReference.cache
+C:\Users\juanv\OneDrive\Anexos\Área de Trabalho\programação\Interface SportShop\obj\Debug\Interface_SportShop.F_login.resources
+C:\Users\juanv\OneDrive\Anexos\Área de Trabalho\programação\Interface SportShop\obj\Debug\Interface_SportShop.Properties.Resources.resources
+C:\Users\juanv\OneDrive\Anexos\Área de Trabalho\programação\Interface SportShop\obj\Debug\Interface SportShop.csproj.GenerateResource.cache
+C:\Users\juanv\OneDrive\Anexos\Área de Trabalho\programação\Interface SportShop\obj\Debug\Interface SportShop.csproj.CoreCompileInputs.cache
+C:\Users\juanv\OneDrive\Anexos\Área de Trabalho\programação\Interface SportShop\obj\Debug\Interface SportShop.exe
+C:\Users\juanv\OneDrive\Anexos\Área de Trabalho\programação\Interface SportShop\obj\Debug\Interface SportShop.pdb
+C:\Users\juanv\OneDrive\Anexos\Área de Trabalho\programação\Interface SportShop\obj\Debug\Interface_SportShop.F_main.resources
+C:\Users\juanv\OneDrive\Anexos\Área de Trabalho\programação\Interface SportShop\obj\Debug\Interface_SportShop.F_produtos.resources
+C:\Users\juanv\OneDrive\Anexos\Área de Trabalho\programação\Interface SportShop\obj\Debug\Interface_SportShop.F_financas.resources
+C:\Users\juanv\OneDrive\Anexos\Área de Trabalho\programação\Interface SportShop\obj\Debug\Interface_SportShop.F_funcionarios.resources
+C:\Users\juanv\OneDrive\Anexos\Área de Trabalho\programação\Interface SportShop\obj\Debug\Interface_SportShop.F_clientes.resources
+C:\Users\juanv\OneDrive\Área de Trabalho\BD Projeto\Interface\bin\Debug\Interface SportShop.exe.config
+C:\Users\juanv\OneDrive\Área de Trabalho\BD Projeto\Interface\bin\Debug\Interface SportShop.exe
+C:\Users\juanv\OneDrive\Área de Trabalho\BD Projeto\Interface\bin\Debug\Interface SportShop.pdb
+C:\Users\juanv\OneDrive\Área de Trabalho\BD Projeto\Interface\obj\Debug\Interface SportShop.csprojAssemblyReference.cache
+C:\Users\juanv\OneDrive\Área de Trabalho\BD Projeto\Interface\obj\Debug\Interface_SportShop.F_clientes.resources
+C:\Users\juanv\OneDrive\Área de Trabalho\BD Projeto\Interface\obj\Debug\Interface_SportShop.F_financas.resources
+C:\Users\juanv\OneDrive\Área de Trabalho\BD Projeto\Interface\obj\Debug\Interface_SportShop.F_funcionarios.resources
+C:\Users\juanv\OneDrive\Área de Trabalho\BD Projeto\Interface\obj\Debug\Interface_SportShop.F_login.resources
+C:\Users\juanv\OneDrive\Área de Trabalho\BD Projeto\Interface\obj\Debug\Interface_SportShop.F_main.resources
+C:\Users\juanv\OneDrive\Área de Trabalho\BD Projeto\Interface\obj\Debug\Interface_SportShop.F_produtos.resources
+C:\Users\juanv\OneDrive\Área de Trabalho\BD Projeto\Interface\obj\Debug\Interface_SportShop.Properties.Resources.resources
+C:\Users\juanv\OneDrive\Área de Trabalho\BD Projeto\Interface\obj\Debug\Interface SportShop.csproj.GenerateResource.cache
+C:\Users\juanv\OneDrive\Área de Trabalho\BD Projeto\Interface\obj\Debug\Interface SportShop.csproj.CoreCompileInputs.cache
+C:\Users\juanv\OneDrive\Área de Trabalho\BD Projeto\Interface\obj\Debug\Interface SportShop.exe
+C:\Users\juanv\OneDrive\Área de Trabalho\BD Projeto\Interface\obj\Debug\Interface SportShop.pdb
