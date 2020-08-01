@@ -8,3 +8,4 @@ Each folder contains a README.md file with instructions on how to use your files
 * data-generator: in this folder are the codes used to generate inserts and updates.
 
 #### SportShop Demonstration
+[![this is a SportShop demonstration video](http://img.youtube.com/vi/am3J-W-MhXw/0.jpg)](http://www.youtube.com/watch?v=am3J-W-MhXw "SportShop Demonstration")
