@@ -4,6 +4,7 @@ The whole part of the database was developed in SQL Server, while the interface 
   
 Each folder contains a README.md file with instructions on how to use your files, however below is a brief summary of each folder
 * sql: in this folder are all the SQL files for creating SportShop database.
-* interface-c#: in this folder are all of the C# codes that implement the SportShop interface
-* 
+* interface-c#: in this folder are all of the C# codes that implement the SportShop interface.
+* data-generator: in this folder are the codes used to generate inserts and updates.
 
+#### SportShop Demonstration
