@@ -1,2 +1,10 @@
-# SportShop_bd
-Project made within the scope of the Database discipline 
+# SportShop
+SportShop is a sports accessories store that we created for the Database classes.  
+The whole part of the database was developed in SQL Server, while the interface was developed in C#.
+
+
+each folder contains a README.md file with instructions on how to use your files, however below is a brief summary of each folder
+* 
+* 
+* 
+
